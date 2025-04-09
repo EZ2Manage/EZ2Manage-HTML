@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tarieven - EZ2Manage</title>
+    <meta property="og:title" content="Tarieven - EZ2Manage" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./tarieven.css" rel="stylesheet" />
+
+      <div class="tarieven-container">
+        <img
+          alt="image"
+          src="public/ez2managehorixontal%20color%20(1).svg"
+          class="tarieven-image"
+        />
+        <navbar8-wrapper class="navbar8-wrapper">
+          <!--Navbar8 component-->
+          <header class="navbar8-container1">
+            <header data-thq="thq-navbar" class="navbar8-navbar-interactive">
+              <div data-thq="thq-navbar-nav" class="navbar8-desktop-menu">
+                <nav class="navbar8-links1">
+                  <a
+                    href="index.html"
+                    class="navbar8-link11 thq-link thq-body-small"
+                  >
+                    <fragment class="tarieven-fragment10">
+                      <span class="tarieven-text10">Home</span>
+                    </fragment>
+                  </a>
+                  <a
+                    href="tarieven.html"
+                    class="navbar8-link21 thq-link thq-body-small"
+                  >
+                    <fragment class="tarieven-fragment11">
+                      <span class="tarieven-text11">Tarieven</span>
+                    </fragment>
+                  </a>
+                  <a
+                    href="over-ons.html"
+                    class="navbar8-link31 thq-link thq-body-small"
+                  >
+                    <fragment class="tarieven-fragment12">
+                      <span class="tarieven-text12">Over ons</span>
+                    </fragment>
+                  </a>
+                  <div class="navbar8-link4-dropdown-trigger">
+                    <a
+                      href="contact.html"
+                      class="navbar8-link51 thq-link thq-body-small"
+                    >
+                      <fragment class="tarieven-fragment13">
+                        <span class="tarieven-text13">Contact</span>
+                      </fragment>
+                    </a>
+                  </div>
+                </nav>
+                <div class="navbar8-buttons1">
+                  <a
+                    href="tarieven.html"
+                    class="navbar8-action11 thq-button-filled thq-button-animated"
+                  >
+                    <span class="navbar8-text10">
+                      <fragment class="tarieven-fragment18">
+                        <span class="tarieven-text18">Bekijk tarieven</span>
+                      </fragment>
+                    </span>
+                  </a>
+                  <button
+                    class="navbar8-action12 thq-button-filled thq-button-animated"
+                  >
+                    <span>
+                      <fragment class="tarieven-fragment19">
+                        <span class="tarieven-text19">Log in</span>
+                      </fragment>
+                    </span>
+                  </button>
+                </div>
+              </div>
+              <div data-thq="thq-burger-menu" class="navbar8-burger-menu">
+                <svg viewBox="0 0 1024 1024" class="navbar8-icon10">
+                  <path
+                    d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                  ></path>
+                </svg>
+              </div>
+              <div data-thq="thq-mobile-menu" class="navbar8-mobile-menu">
+                <div class="navbar8-nav">
+                  <div class="navbar8-top">
+                    <div data-thq="thq-close-menu" class="navbar8-close-menu">
+                      <svg viewBox="0 0 1024 1024" class="navbar8-icon12">
+                        <path
+                          d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <nav class="navbar8-links2">
+                    <a
+                      href="index.html"
+                      class="navbar8-link12 thq-link thq-body-small"
+                    >
+                      <fragment class="tarieven-fragment10">
+                        <span class="tarieven-text10">Home</span>
+                      </fragment>
+                    </a>
+                    <a
+                      href="tarieven.html"
+                      class="navbar8-link22 thq-link thq-body-small"
+                    >
+                      <fragment class="tarieven-fragment11">
+                        <span class="tarieven-text11">Tarieven</span>
+                      </fragment>
+                    </a>
+                    <a
+                      href="over-ons.html"
+                      class="navbar8-link32 thq-link thq-body-small"
+                    >
+                      <fragment class="tarieven-fragment12">
+                        <span class="tarieven-text12">Over ons</span>
+                      </fragment>
+                    </a>
+                    <div class="navbar8-link4-accordion">
+                      <div class="navbar8-trigger">
+                        <a
+                          href="contact.html"
+                          class="navbar8-link52 thq-link thq-body-small"
+                        >
+                          <fragment class="tarieven-fragment13">
+                            <span class="tarieven-text13">Contact</span>
+                          </fragment>
+                        </a>
+                        <div class="navbar8-icon-container">
+                          <div class="navbar8-container2">
+                            <svg viewBox="0 0 1024 1024" class="navbar8-icon14">
+                              <path d="M298 426h428l-214 214z"></path>
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="navbar8-container3">
+                        <a href="https://www.teleporthq.io">
+                          <div class="navbar8-menu-item1">
+                            <img
+                              alt="Home Image"
+                              src="https://images.unsplash.com/photo-1599067897079-aedd464866d6?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0NDE0MzI3OXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                              class="navbar8-page1-image"
+                            />
+                            <div class="navbar8-content1">
+                              <span class="navbar8-page1 thq-body-large">
+                                <fragment class="tarieven-fragment14">
+                                  <span class="tarieven-text14">Home</span>
+                                </fragment>
+                              </span>
+                              <span class="thq-body-small">
+                                <fragment class="tarieven-fragment20">
+                                  <span class="tarieven-text20">
+                                    Welcome to our consultancy business and
+                                    management platform.
+                                  </span>
+                                </fragment>
+                              </span>
+                            </div>
+                          </div>
+                        </a>
+                        <a href="https://www.teleporthq.io">
+                          <div class="navbar8-menu-item2">
+                            <img
+                              alt="Services Image"
+                              src="https://images.unsplash.com/photo-1593439426324-71b3f44ca9ee?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0NDE0MzI3OXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                              class="navbar8-page2-image"
+                            />
+                            <div class="navbar8-content2">
+                              <span class="navbar8-page2 thq-body-large">
+                                <fragment class="tarieven-fragment15">
+                                  <span class="tarieven-text15">Services</span>
+                                </fragment>
+                              </span>
+                              <span class="thq-body-small">
+                                <fragment class="tarieven-fragment21">
+                                  <span class="tarieven-text21">
+                                    Explore our range of services for privacy
+                                    and security solutions.
+                                  </span>
+                                </fragment>
+                              </span>
+                            </div>
+                          </div>
+                        </a>
+                        <a href="https://www.teleporthq.io">
+                          <div class="navbar8-menu-item3">
+                            <img
+                              alt="About Us Image"
+                              src="https://images.unsplash.com/photo-1517008586102-fc04ded28b00?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0NDE0MzI4MHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                              class="navbar8-page3-image"
+                            />
+                            <div class="navbar8-content3">
+                              <span class="navbar8-page3 thq-body-large">
+                                <fragment class="tarieven-fragment16">
+                                  <span class="tarieven-text16">About Us</span>
+                                </fragment>
+                              </span>
+                              <span class="thq-body-small">
+                                <fragment class="tarieven-fragment22">
+                                  <span class="tarieven-text22">
+                                    Learn more about our team and mission.
+                                  </span>
+                                </fragment>
+                              </span>
+                            </div>
+                          </div>
+                        </a>
+                        <a href="https://www.teleporthq.io">
+                          <div class="navbar8-menu-item4">
+                            <img
+                              alt="Contact Image"
+                              src="https://images.unsplash.com/photo-1504805572947-34fad45aed93?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0NDE0MzI3OXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                              class="navbar8-page4-image"
+                            />
+                            <div class="navbar8-content4">
+                              <span class="navbar8-page4 thq-body-large">
+                                <fragment class="tarieven-fragment17">
+                                  <span class="tarieven-text17">Contact</span>
+                                </fragment>
+                              </span>
+                              <span class="thq-body-small">
+                                <fragment class="tarieven-fragment23">
+                                  <span class="tarieven-text23">
+                                    Get in touch with us for consultations and
+                                    inquiries.
+                                  </span>
+                                </fragment>
+                              </span>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </nav>
+                  <div class="navbar8-buttons2">
+                    <button class="thq-button-filled">
+                      <span>
+                        <fragment class="tarieven-fragment18">
+                          <span class="tarieven-text18">Bekijk tarieven</span>
+                        </fragment>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+                <div class="navbar8-icon-group">
+                  <svg
+                    viewBox="0 0 950.8571428571428 1024"
+                    class="thq-icon-x-small"
+                  >
+                    <path
+                      d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                    ></path></svg
+                  ><svg
+                    viewBox="0 0 877.7142857142857 1024"
+                    class="thq-icon-x-small"
+                  >
+                    <path
+                      d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                    ></path></svg
+                  ><svg
+                    viewBox="0 0 602.2582857142856 1024"
+                    class="thq-icon-small"
+                  >
+                    <path
+                      d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </header>
+            <div class="navbar8-container4"></div>
+          </header>
+        </navbar8-wrapper>
+        <pricing14-wrapper class="pricing14-wrapper">
+          <!--Pricing14 component-->
+          <div class="pricing14-pricing23 thq-section-padding">
+            <div class="pricing14-max-width thq-section-max-width">
+              <div class="pricing14-section-title">
+                <div class="pricing14-content">
+                  <h2 class="pricing14-text10 thq-heading-2">
+                    <fragment class="tarieven-fragment29">
+                      <span class="tarieven-text29">Onze tarieven</span>
+                    </fragment>
+                  </h2>
+                  <p class="pricing14-text11 thq-body-large">
+                    <fragment class="tarieven-fragment28">
+                      <span class="tarieven-text28">
+                        Een compleet pakket voor de laagste prijs!
+                      </span>
+                    </fragment>
+                  </p>
+                </div>
+              </div>
+              <div class="pricing14-tabs">
+                <button
+                  class="pricing14-button1 thq-button-filled thq-button-animated"
+                >
+                  <span class="thq-body-small">Maandelijks</span>
+                </button>
+                <button
+                  class="pricing14-button2 thq-button-animated thq-button-outline"
+                >
+                  <span class="thq-body-small">Maandelijks</span>
+                </button>
+                <button
+                  autofocus="true"
+                  class="pricing14-button3 thq-button-filled thq-button-animated"
+                >
+                  <span class="thq-body-small">Jaarlijks</span>
+                </button>
+                <button
+                  class="pricing14-button4 thq-button-animated thq-button-outline"
+                >
+                  <span class="thq-body-small">Jaarlijks</span>
+                </button>
+              </div>
+              <div class="pricing14-container1">
+                <div class="pricing14-column1 thq-card">
+                  <div class="pricing14-price1">
+                    <div class="pricing14-price2">
+                      <p class="pricing14-text16 thq-body-large">
+                        <fragment class="tarieven-fragment24">
+                          <span class="tarieven-text24">Stichtingen</span>
+                        </fragment>
+                      </p>
+                      <h3 class="pricing14-text17 thq-heading-3">
+                        <fragment class="tarieven-fragment30">
+                          <span class="tarieven-text30">€24,99/maand</span>
+                        </fragment>
+                      </h3>
+                    </div>
+                    <div class="pricing14-list1">
+                      <div class="pricing14-list-item10">
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                          ></path>
+                        </svg>
+                        <span class="thq-body-small">
+                          <fragment class="tarieven-fragment40">
+                            <span class="tarieven-text40">
+                              Alle verplichte documenten en registers
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                      <div class="pricing14-list-item11">
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                          ></path>
+                        </svg>
+                        <span class="thq-body-small">
+                          <fragment class="tarieven-fragment41">
+                            <span class="tarieven-text41">
+                              Verwerkingsregister en DPIA's
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                      <div class="pricing14-list-item12">
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                          ></path>
+                        </svg>
+                        <span class="thq-body-small">
+                          <fragment class="tarieven-fragment42">
+                            <span class="tarieven-text42">
+                              Makkelijke voorbeelden en instructies
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                      <div class="pricing14-list-item13">
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                          ></path>
+                        </svg>
+                        <span class="thq-body-small">
+                          <fragment class="tarieven-fragment43">
+                            <span class="tarieven-text43">
+                              Privacyverklaring generator en meer!
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <button
+                    class="pricing14-button5 thq-button-filled thq-button-animated"
+                  >
+                    <span class="thq-body-small">
+                      <fragment class="tarieven-fragment33">
+                        <span class="tarieven-text33">Kies abonnement</span>
+                      </fragment>
+                    </span>
+                  </button>
+                </div>
+                <div class="pricing14-column2 thq-card">
+                  <div class="pricing14-price3">
+                    <div class="pricing14-price4">
+                      <p class="pricing14-text23 thq-body-large">
+                        <fragment class="tarieven-fragment25">
+                          <span class="tarieven-text25">Bedrijven</span>
+                        </fragment>
+                      </p>
+                      <h3 class="pricing14-text24 thq-heading-3">
+                        <fragment class="tarieven-fragment31">
+                          <span class="tarieven-text31">€29,99/maand</span>
+                        </fragment>
+                      </h3>
+                    </div>
+                    <div class="pricing14-list2">
+                      <div class="pricing14-list-item14">
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                          ></path>
+                        </svg>
+                        <span class="thq-body-small">
+                          <fragment class="tarieven-fragment44">
+                            <span class="tarieven-text44">
+                              Alle verplichte documenten en registers
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                      <div class="pricing14-list-item15">
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                          ></path>
+                        </svg>
+                        <span class="thq-body-small">
+                          <fragment class="tarieven-fragment45">
+                            <span class="tarieven-text45">
+                              Risico en incidentbeheer
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                      <div class="pricing14-list-item16">
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                          ></path>
+                        </svg>
+                        <span class="thq-body-small">
+                          <fragment class="tarieven-fragment46">
+                            <span class="tarieven-text46">
+                              Verplichte documenten
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                      <div class="pricing14-list-item17">
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                          ></path>
+                        </svg>
+                        <span class="thq-body-small">
+                          <fragment class="tarieven-fragment47">
+                            <span class="tarieven-text47">
+                              Privacyverklaring generator en meer!
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <button
+                    class="pricing14-button6 thq-button-filled thq-button-animated"
+                  >
+                    <span class="thq-body-small">
+                      <fragment class="tarieven-fragment35">
+                        <span class="tarieven-text35">Kies abonnement</span>
+                      </fragment>
+                    </span>
+                  </button>
+                </div>
+              </div>
+              <div class="pricing14-container2">
+                <div class="pricing14-column3 thq-card">
+                  <div class="pricing14-price5">
+                    <div class="pricing14-price6">
+                      <span class="pricing14-text30 thq-body-large">
+                        <fragment class="tarieven-fragment26">
+                          <span class="tarieven-text26">Stichtingen</span>
+                        </fragment>
+                      </span>
+                      <h3 class="pricing14-text31 thq-heading-3">
+                        <fragment class="tarieven-fragment32">
+                          <span class="tarieven-text32">€18,99/maand</span>
+                        </fragment>
+                      </h3>
+                      <span class="thq-body-large">
+                        <fragment class="tarieven-fragment37">
+                          <span class="tarieven-text37">
+                            = €227,88 op jaarbasis
+                          </span>
+                        </fragment>
+                      </span>
+                    </div>
+                    <div class="pricing14-list3">
+                      <div class="pricing14-list-item18">
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                          ></path>
+                        </svg>
+                        <span class="thq-body-small">
+                          <fragment class="tarieven-fragment48">
+                            <span class="tarieven-text48">
+                              Alle verplichte documenten en registers
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                      <div class="pricing14-list-item19">
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                          ></path>
+                        </svg>
+                        <span class="thq-body-small">
+                          <fragment class="tarieven-fragment49">
+                            <span class="tarieven-text49">
+                              Risico en incidentbeheer
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                      <div class="pricing14-list-item20">
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                          ></path>
+                        </svg>
+                        <span class="thq-body-small">
+                          <fragment class="tarieven-fragment50">
+                            <span class="tarieven-text50">
+                              Makkelijke voorbeelden en instructies
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                      <div class="pricing14-list-item21">
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                          ></path>
+                        </svg>
+                        <span class="thq-body-small">
+                          <fragment class="tarieven-fragment55">
+                            <span class="tarieven-text55">
+                              Privacyverklaring generator en meer!
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <button
+                    class="pricing14-button7 thq-button-animated thq-button-outline"
+                  >
+                    <span class="pricing14-text37 thq-body-small">
+                      <fragment class="tarieven-fragment36">
+                        <span class="tarieven-text36">Begin vandaag</span>
+                      </fragment>
+                    </span>
+                  </button>
+                </div>
+                <div class="pricing14-column4 thq-card">
+                  <div class="pricing14-price7">
+                    <div class="pricing14-price8">
+                      <span class="pricing14-text38 thq-body-large">
+                        <fragment class="tarieven-fragment27">
+                          <span class="tarieven-text27">
+                            Overige organisaties
+                          </span>
+                        </fragment>
+                      </span>
+                      <h3 class="pricing14-text39 thq-heading-3">
+                        <fragment class="tarieven-fragment34">
+                          <span class="tarieven-text34">€23,99/maand</span>
+                        </fragment>
+                      </h3>
+                      <span class="thq-body-large">
+                        <fragment class="tarieven-fragment39">
+                          <span class="tarieven-text39">
+                            = €287,88 op jaarbasis
+                          </span>
+                        </fragment>
+                      </span>
+                    </div>
+                    <div class="pricing14-list4">
+                      <div class="pricing14-list-item22">
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                          ></path>
+                        </svg>
+                        <span class="thq-body-small">
+                          <fragment class="tarieven-fragment51">
+                            <span class="tarieven-text51">
+                              Alle verplichte documenten en registers
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                      <div class="pricing14-list-item23">
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                          ></path>
+                        </svg>
+                        <span class="thq-body-small">
+                          <fragment class="tarieven-fragment52">
+                            <span class="tarieven-text52">
+                              Risico en incidentbeheer
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                      <div class="pricing14-list-item24">
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                          ></path>
+                        </svg>
+                        <span class="thq-body-small">
+                          <fragment class="tarieven-fragment53">
+                            <span class="tarieven-text53">
+                              Makkelijke voorbeelden en instructies
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                      <div class="pricing14-list-item25">
+                        <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                          <path
+                            d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                          ></path>
+                        </svg>
+                        <span class="thq-body-small">
+                          <fragment class="tarieven-fragment54">
+                            <span class="tarieven-text54">
+                              Privacyverklaring generator en meer!
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <button
+                    class="pricing14-button8 thq-button-filled thq-button-animated"
+                  >
+                    <span class="thq-body-small">
+                      <fragment class="tarieven-fragment38">
+                        <span class="tarieven-text38">Begin vandaag</span>
+                      </fragment>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </pricing14-wrapper>
+        <pricing5-wrapper class="pricing5-wrapper">
+          <!--Pricing5 component-->
+          <div class="pricing5-pricing8 thq-section-padding">
+            <div class="pricing5-max-width thq-section-max-width">
+              <div class="pricing5-section-title">
+                <div class="pricing5-content1">
+                  <h2 class="pricing5-text10 thq-heading-2">
+                    <fragment class="tarieven-fragment58">
+                      <span class="tarieven-text58">Implementatieadvies</span>
+                    </fragment>
+                  </h2>
+                  <p class="pricing5-text11 thq-body-large">
+                    <fragment class="tarieven-fragment57">
+                      <span class="tarieven-text57">
+                        Mocht u aan de instructievideo's en voorbeelddocumenten
+                        niet genoeg hebben, dan bieden wij uiterst betaalbare
+                        adviesgesprekken aan. Tevens nergens anders goedkoper.
+                      </span>
+                    </fragment>
+                  </p>
+                </div>
+              </div>
+              <div class="pricing5-content2">
+                <div class="pricing5-column1">
+                  <div class="pricing5-list1">
+                    <div class="pricing5-list-item1">
+                      <div class="pricing5-container1">
+                        <h3 class="thq-heading-3">
+                          <fragment class="tarieven-fragment66">
+                            <span class="tarieven-text69">
+                              Ondersteuning bij vragen
+                            </span>
+                          </fragment>
+                        </h3>
+                        <span class="thq-body-small">
+                          <fragment class="tarieven-fragment67">
+                            <span class="tarieven-text70">
+                              Soms heb je vragen. Stel ze!
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="pricing5-list-item2">
+                      <div class="pricing5-container2">
+                        <h3 class="thq-heading-3">
+                          <fragment class="tarieven-fragment69">
+                            <span class="tarieven-text72">
+                              Toetsen van werkwijze
+                            </span>
+                          </fragment>
+                        </h3>
+                        <span class="thq-body-small">
+                          <fragment class="tarieven-fragment71">
+                            <span class="tarieven-text74">
+                              Voor als je niet zeker bent of je het juiste hebt
+                              ingevuld.
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="pricing5-list-item3">
+                      <div class="pricing5-container3">
+                        <h3 class="thq-heading-3">
+                          <fragment class="tarieven-fragment68">
+                            <span class="tarieven-text71">Advies</span>
+                          </fragment>
+                        </h3>
+                        <span class="thq-body-small">
+                          <fragment class="tarieven-fragment70">
+                            <span class="tarieven-text73">
+                              Ontvang advies over de huidige inrichting.
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pricing5-column2 thq-card">
+                  <div class="pricing5-price-title">
+                    <p class="pricing5-text18 thq-body-large">
+                      <fragment class="tarieven-fragment56">
+                        <span class="tarieven-text56">
+                          Implementatieadvies voor klanten
+                        </span>
+                      </fragment>
+                    </p>
+                    <span class="thq-body-small">
+                      <fragment class="tarieven-fragment61">
+                        <span class="tarieven-text64">
+                          Voor als je er zelf toch even niet uit komt.
+                        </span>
+                      </fragment>
+                    </span>
+                  </div>
+                  <div class="thq-divider-horizontal"></div>
+                  <h3 class="pricing5-text20 thq-heading-3">
+                    <fragment class="tarieven-fragment59">
+                      <span class="tarieven-text59">
+                        <span class="tarieven-text60">€120/uur</span>
+                        <span>&nbsp;</span>
+                        <span class="tarieven-text62">€20/uur</span>
+                      </span>
+                    </fragment>
+                  </h3>
+                  <button class="pricing5-button thq-button-filled">
+                    <span class="thq-body-small">
+                      <fragment class="tarieven-fragment60">
+                        <span class="tarieven-text63">Plan een gesprek in</span>
+                      </fragment>
+                    </span>
+                  </button>
+                  <div class="thq-divider-horizontal"></div>
+                  <div class="pricing5-list2">
+                    <div class="pricing5-list-item4">
+                      <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                        <path
+                          d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                        ></path>
+                      </svg>
+                      <span class="thq-body-small">
+                        <fragment class="tarieven-fragment62">
+                          <span class="tarieven-text65">
+                            Samen invullen verwerkingsregister
+                          </span>
+                        </fragment>
+                      </span>
+                    </div>
+                    <div class="pricing5-list-item5">
+                      <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                        <path
+                          d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                        ></path>
+                      </svg>
+                      <span class="thq-body-small">
+                        <fragment class="tarieven-fragment63">
+                          <span class="tarieven-text66">
+                            Samen invullen risicoanalyse
+                          </span>
+                        </fragment>
+                      </span>
+                    </div>
+                    <div class="pricing5-list-item6">
+                      <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                        <path
+                          d="M384 690l452-452 60 60-512 512-238-238 60-60z"
+                        ></path>
+                      </svg>
+                      <span class="thq-body-small">
+                        <fragment class="tarieven-fragment64">
+                          <span class="tarieven-text67">
+                            Uitleg bij moeilijke vraagstukken
+                          </span>
+                        </fragment>
+                      </span>
+                    </div>
+                    <div class="pricing5-list-item7">
+                      <span class="thq-body-small">
+                        <fragment class="tarieven-fragment65">
+                          <span class="tarieven-text68">
+                            Let op: Advies dat wordt gegeven is géén bindend
+                            juridisch advies, en hier mogen en kunnen geen
+                            rechten aan worden ontleend.
+                          </span>
+                        </fragment>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </pricing5-wrapper>
+        <footer4-wrapper class="footer4-wrapper">
+          <!--Footer4 component-->
+          <footer class="footer4-footer7 thq-section-padding">
+            <div class="footer4-max-width thq-section-max-width">
+              <div class="footer4-content">
+                <div class="footer4-logo1">
+                  <img
+                    alt="Consultancy Business Logo"
+                    src="public/ez2managehorixontal%20color%20(1).svg"
+                    class="footer4-logo2"
+                  />
+                </div>
+              </div>
+              <div class="footer4-credits">
+                <div class="thq-divider-horizontal"></div>
+                <div class="footer4-row">
+                  <div class="footer4-container">
+                    <span class="thq-body-small">© 2025 EZ2Manage</span>
+                  </div>
+                  <div class="footer4-footer-links">
+                    <a
+                      href="privacyverklaring.html"
+                      class="footer4-text2 thq-body-small"
+                    >
+                      <fragment class="tarieven-fragment73">
+                        <span class="tarieven-text76">Privacyverklaring</span>
+                      </fragment>
+                    </a>
+                    <span class="thq-body-small">
+                      <fragment class="tarieven-fragment72">
+                        <span class="tarieven-text75">
+                          Algemene voorwaarden
+                        </span>
+                      </fragment>
+                    </span>
+                    <a
+                      href="disclaimer.html"
+                      class="footer4-text4 thq-body-small"
+                    >
+                      <fragment class="tarieven-fragment74">
+                        <span class="tarieven-text77">Disclaimer</span>
+                      </fragment>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </footer4-wrapper>
+      </div>
+    </div>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>

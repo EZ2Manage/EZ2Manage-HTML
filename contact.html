@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact - EZ2Manage</title>
+    <meta property="og:title" content="Contact - EZ2Manage" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./contact.css" rel="stylesheet" />
+
+      <div class="contact-container">
+        <img
+          alt="image"
+          src="public/ez2managehorixontal%20color%20(1).svg"
+          class="contact-image"
+        />
+        <navbar8-wrapper class="navbar8-wrapper">
+          <!--Navbar8 component-->
+          <header class="navbar8-container1">
+            <header data-thq="thq-navbar" class="navbar8-navbar-interactive">
+              <div data-thq="thq-navbar-nav" class="navbar8-desktop-menu">
+                <nav class="navbar8-links1">
+                  <a
+                    href="index.html"
+                    class="navbar8-link11 thq-link thq-body-small"
+                  >
+                    <fragment class="contact-fragment10">
+                      <span class="contact-text10">Home</span>
+                    </fragment>
+                  </a>
+                  <a
+                    href="tarieven.html"
+                    class="navbar8-link21 thq-link thq-body-small"
+                  >
+                    <fragment class="contact-fragment11">
+                      <span class="contact-text11">Tarieven</span>
+                    </fragment>
+                  </a>
+                  <a
+                    href="over-ons.html"
+                    class="navbar8-link31 thq-link thq-body-small"
+                  >
+                    <fragment class="contact-fragment12">
+                      <span class="contact-text12">Over ons</span>
+                    </fragment>
+                  </a>
+                  <div class="navbar8-link4-dropdown-trigger">
+                    <a
+                      href="contact.html"
+                      class="navbar8-link51 thq-link thq-body-small"
+                    >
+                      <fragment class="contact-fragment13">
+                        <span class="contact-text13">Contact</span>
+                      </fragment>
+                    </a>
+                  </div>
+                </nav>
+                <div class="navbar8-buttons1">
+                  <a
+                    href="tarieven.html"
+                    class="navbar8-action11 thq-button-filled thq-button-animated"
+                  >
+                    <span class="navbar8-text10">
+                      <fragment class="contact-fragment18">
+                        <span class="contact-text18">Bekijk tarieven</span>
+                      </fragment>
+                    </span>
+                  </a>
+                  <button
+                    class="navbar8-action12 thq-button-filled thq-button-animated"
+                  >
+                    <span>
+                      <fragment class="contact-fragment19">
+                        <span class="contact-text19">Log in</span>
+                      </fragment>
+                    </span>
+                  </button>
+                </div>
+              </div>
+              <div data-thq="thq-burger-menu" class="navbar8-burger-menu">
+                <svg viewBox="0 0 1024 1024" class="navbar8-icon10">
+                  <path
+                    d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                  ></path>
+                </svg>
+              </div>
+              <div data-thq="thq-mobile-menu" class="navbar8-mobile-menu">
+                <div class="navbar8-nav">
+                  <div class="navbar8-top">
+                    <div data-thq="thq-close-menu" class="navbar8-close-menu">
+                      <svg viewBox="0 0 1024 1024" class="navbar8-icon12">
+                        <path
+                          d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <nav class="navbar8-links2">
+                    <a
+                      href="index.html"
+                      class="navbar8-link12 thq-link thq-body-small"
+                    >
+                      <fragment class="contact-fragment10">
+                        <span class="contact-text10">Home</span>
+                      </fragment>
+                    </a>
+                    <a
+                      href="tarieven.html"
+                      class="navbar8-link22 thq-link thq-body-small"
+                    >
+                      <fragment class="contact-fragment11">
+                        <span class="contact-text11">Tarieven</span>
+                      </fragment>
+                    </a>
+                    <a
+                      href="over-ons.html"
+                      class="navbar8-link32 thq-link thq-body-small"
+                    >
+                      <fragment class="contact-fragment12">
+                        <span class="contact-text12">Over ons</span>
+                      </fragment>
+                    </a>
+                    <div class="navbar8-link4-accordion">
+                      <div class="navbar8-trigger">
+                        <a
+                          href="contact.html"
+                          class="navbar8-link52 thq-link thq-body-small"
+                        >
+                          <fragment class="contact-fragment13">
+                            <span class="contact-text13">Contact</span>
+                          </fragment>
+                        </a>
+                        <div class="navbar8-icon-container">
+                          <div class="navbar8-container2">
+                            <svg viewBox="0 0 1024 1024" class="navbar8-icon14">
+                              <path d="M298 426h428l-214 214z"></path>
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="navbar8-container3">
+                        <a href="https://www.teleporthq.io">
+                          <div class="navbar8-menu-item1">
+                            <img
+                              alt="Home Image"
+                              src="https://images.unsplash.com/photo-1599067897079-aedd464866d6?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0NDE0MzI3OXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                              class="navbar8-page1-image"
+                            />
+                            <div class="navbar8-content1">
+                              <span class="navbar8-page1 thq-body-large">
+                                <fragment class="contact-fragment14">
+                                  <span class="contact-text14">Home</span>
+                                </fragment>
+                              </span>
+                              <span class="thq-body-small">
+                                <fragment class="contact-fragment20">
+                                  <span class="contact-text20">
+                                    Welcome to our consultancy business and
+                                    management platform.
+                                  </span>
+                                </fragment>
+                              </span>
+                            </div>
+                          </div>
+                        </a>
+                        <a href="https://www.teleporthq.io">
+                          <div class="navbar8-menu-item2">
+                            <img
+                              alt="Services Image"
+                              src="https://images.unsplash.com/photo-1593439426324-71b3f44ca9ee?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0NDE0MzI3OXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                              class="navbar8-page2-image"
+                            />
+                            <div class="navbar8-content2">
+                              <span class="navbar8-page2 thq-body-large">
+                                <fragment class="contact-fragment15">
+                                  <span class="contact-text15">Services</span>
+                                </fragment>
+                              </span>
+                              <span class="thq-body-small">
+                                <fragment class="contact-fragment21">
+                                  <span class="contact-text21">
+                                    Explore our range of services for privacy
+                                    and security solutions.
+                                  </span>
+                                </fragment>
+                              </span>
+                            </div>
+                          </div>
+                        </a>
+                        <a href="https://www.teleporthq.io">
+                          <div class="navbar8-menu-item3">
+                            <img
+                              alt="About Us Image"
+                              src="https://images.unsplash.com/photo-1517008586102-fc04ded28b00?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0NDE0MzI4MHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                              class="navbar8-page3-image"
+                            />
+                            <div class="navbar8-content3">
+                              <span class="navbar8-page3 thq-body-large">
+                                <fragment class="contact-fragment16">
+                                  <span class="contact-text16">About Us</span>
+                                </fragment>
+                              </span>
+                              <span class="thq-body-small">
+                                <fragment class="contact-fragment22">
+                                  <span class="contact-text22">
+                                    Learn more about our team and mission.
+                                  </span>
+                                </fragment>
+                              </span>
+                            </div>
+                          </div>
+                        </a>
+                        <a href="https://www.teleporthq.io">
+                          <div class="navbar8-menu-item4">
+                            <img
+                              alt="Contact Image"
+                              src="https://images.unsplash.com/photo-1504805572947-34fad45aed93?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0NDE0MzI3OXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                              class="navbar8-page4-image"
+                            />
+                            <div class="navbar8-content4">
+                              <span class="navbar8-page4 thq-body-large">
+                                <fragment class="contact-fragment17">
+                                  <span class="contact-text17">Contact</span>
+                                </fragment>
+                              </span>
+                              <span class="thq-body-small">
+                                <fragment class="contact-fragment23">
+                                  <span class="contact-text23">
+                                    Get in touch with us for consultations and
+                                    inquiries.
+                                  </span>
+                                </fragment>
+                              </span>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </nav>
+                  <div class="navbar8-buttons2">
+                    <button class="thq-button-filled">
+                      <span>
+                        <fragment class="contact-fragment18">
+                          <span class="contact-text18">Bekijk tarieven</span>
+                        </fragment>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+                <div class="navbar8-icon-group">
+                  <svg
+                    viewBox="0 0 950.8571428571428 1024"
+                    class="thq-icon-x-small"
+                  >
+                    <path
+                      d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                    ></path></svg
+                  ><svg
+                    viewBox="0 0 877.7142857142857 1024"
+                    class="thq-icon-x-small"
+                  >
+                    <path
+                      d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                    ></path></svg
+                  ><svg
+                    viewBox="0 0 602.2582857142856 1024"
+                    class="thq-icon-small"
+                  >
+                    <path
+                      d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </header>
+            <div class="navbar8-container4"></div>
+          </header>
+        </navbar8-wrapper>
+        <faq12-wrapper class="faq12-wrapper">
+          <!--FAQ12 component-->
+          <div class="faq12faq8 thq-section-padding">
+            <div class="faq12-max-width thq-flex-row thq-section-max-width">
+              <div class="faq12-section-title thq-flex-column">
+                <div class="faq12-content thq-flex-column">
+                  <h2 class="thq-heading-2">
+                    <fragment class="contact-fragment25">
+                      <span class="contact-text30">Veelgestelde vragen</span>
+                    </fragment>
+                  </h2>
+                  <p class="thq-body-large">
+                    <fragment class="contact-fragment24">
+                      <span class="contact-text24">
+                        <span>
+                          Hebt u een vraag? Bekijk dan eerst of deze vraag wordt
+                          beantwoord in de lijst met veelgestelde vragen.&nbsp;
+                        </span>
+                        <br />
+                        <br />
+                        <span>
+                          Heb je een andere vraag, probleem of verzoek? Neem dan
+                          contact op via het contactformulier onderaan de
+                          pagina.
+                        </span>
+                        <br />
+                      </span>
+                    </fragment>
+                  </p>
+                </div>
+              </div>
+              <div class="faq12-list thq-flex-column">
+                <div class="faq12-faq1">
+                  <div class="faq12-trigger1">
+                    <p class="faq12-faq1-question thq-body-large">
+                      <fragment class="contact-fragment26">
+                        <span class="contact-text31">
+                          Waar moet ik inloggen?
+                        </span>
+                      </fragment>
+                    </p>
+                    <div class="faq12-icons-container1">
+                      <div>
+                        <svg viewBox="0 0 1024 1024" class="faq12-icon10">
+                          <path
+                            d="M316 366l196 196 196-196 60 60-256 256-256-256z"
+                          ></path>
+                        </svg>
+                      </div>
+                      <div>
+                        <svg viewBox="0 0 1024 1024" class="faq12-icon12">
+                          <path
+                            d="M316 658l-60-60 256-256 256 256-60 60-196-196z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="faq12-container12">
+                    <span class="thq-body-small">
+                      <span>
+                        U kunt inloggen door in de menubalk te klikken op
+                        "inloggen". U wordt dan naar de inlogpagina van
+                        EZ2Manage gestuurd waar u kunt inloggen.
+                      </span>
+                      <br />
+                      <br />
+                      <span>
+                        Als dat niet lukt kunt u in uw e-mail zoeken naar mails
+                        met afzender "EZ2Manage". Wij hebben u namelijk ook een
+                        mail verstuurd met de inloggegevens en een link naar uw
+                        dashboard.
+                      </span>
+                      <br />
+                    </span>
+                  </div>
+                </div>
+                <div class="faq12-faq2">
+                  <div class="faq12-trigger2">
+                    <p class="faq12-faq2-question1 thq-body-large">
+                      <fragment class="contact-fragment27">
+                        <span class="contact-text32">
+                          Wat is de kans op een boete?
+                        </span>
+                      </fragment>
+                    </p>
+                    <div class="faq12-icons-container2">
+                      <div>
+                        <svg viewBox="0 0 1024 1024" class="faq12-icon14">
+                          <path
+                            d="M316 366l196 196 196-196 60 60-256 256-256-256z"
+                          ></path>
+                        </svg>
+                      </div>
+                      <div>
+                        <svg viewBox="0 0 1024 1024" class="faq12-icon16">
+                          <path
+                            d="M316 658l-60-60 256-256 256 256-60 60-196-196z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="faq12-container15">
+                    <span class="thq-body-small">
+                      <span>
+                        De Autoriteit Persoonsgegevens (AP) is het
+                        overheidsorgaan dat toeziet op de naleving van de
+                        privacyrechten van mensen in Nederland. De AP voert
+                        steekproefsgewijs controles uit om te kijken of
+                        organisaties de AVG wel naleven. Een beetje
+                        vergelijkbaar met de belastingdienst.
+                      </span>
+                      <br />
+                      <br />
+                      <span>
+                        Als uit de controle blijkt dat je niet voldoet aan de
+                        AVG, dan kan de AP je een boete of sanctie opleggen. Wat
+                        de boete of sanctie dan is, dat bepaalt de AP per
+                        situatie. De maximale boete is €20.000.000 of 4% van de
+                        wereldwijde omzet.
+                      </span>
+                      <br />
+                      <br />
+                      <span>
+                        Niet alleen aan de hand van controles kunnen misstanden
+                        aan het licht komen. De mensen van wie je
+                        persoonsgegevens verwerkt kunnen ook een klacht indienen
+                        bij de AP als zij vermoeden dat je niet aan de AVG
+                        voldoet. Zij staan bij jou op de stoep
+                      </span>
+                      <span class="faq12-text26">
+                        waarna jij verplicht bent om aan te kunnen tonen dat je
+                        wél aan de AVG voldoet.
+                      </span>
+                      <br />
+                    </span>
+                  </div>
+                </div>
+                <div class="faq12-faq3">
+                  <div class="faq12-trigger3">
+                    <p class="faq12-faq2-question2 thq-body-large">
+                      <fragment class="contact-fragment28">
+                        <span class="contact-text33">
+                          Is het moeilijk om te beginnen?
+                        </span>
+                      </fragment>
+                    </p>
+                    <div class="faq12-icons-container3">
+                      <div>
+                        <svg viewBox="0 0 1024 1024" class="faq12-icon18">
+                          <path
+                            d="M316 366l196 196 196-196 60 60-256 256-256-256z"
+                          ></path>
+                        </svg>
+                      </div>
+                      <div>
+                        <svg viewBox="0 0 1024 1024" class="faq12-icon20">
+                          <path
+                            d="M316 658l-60-60 256-256 256 256-60 60-196-196z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="faq12-container18">
+                    <span class="thq-body-small">
+                      <span>
+                        EZ2Manage is zo ingericht dat het voor iedereen uit te
+                        werken is. Zelfs als je geen kennis hebt van of ervaring
+                        hebt met de AVG.
+                      </span>
+                      <br />
+                      <br />
+                      <span>
+                        Aan de hand van instructievideo's, voorbeelddocumenten
+                        en begrijpelijke taal word je door een takenlijst
+                        heengeleid.
+                      </span>
+                      <br />
+                      <br />
+                      <span>
+                        Mocht je ergens écht niet uitkomen dan kunnen onze
+                        klanten tegen het extreem lage uurtarief van €20/uur
+                        implementatieadvies aanvragen.
+                      </span>
+                      <br />
+                    </span>
+                  </div>
+                </div>
+                <div class="faq12-faq4">
+                  <div class="faq12-trigger4">
+                    <p class="faq12-faq2-question3 thq-body-large">
+                      <fragment class="contact-fragment29">
+                        <span class="contact-text34">
+                          Voor wie geldt de AVG?
+                        </span>
+                      </fragment>
+                    </p>
+                    <div class="faq12-icons-container4">
+                      <div>
+                        <svg viewBox="0 0 1024 1024" class="faq12-icon22">
+                          <path
+                            d="M316 366l196 196 196-196 60 60-256 256-256-256z"
+                          ></path>
+                        </svg>
+                      </div>
+                      <div>
+                        <svg viewBox="0 0 1024 1024" class="faq12-icon24">
+                          <path
+                            d="M316 658l-60-60 256-256 256 256-60 60-196-196z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="faq12-container21">
+                    <span class="thq-body-small">
+                      <span>
+                        De AVG geldt voor iedereen die persoonsgegevens
+                        verwerkt.
+                      </span>
+                      <br />
+                      <span>
+                        Kortgezegd moet dus iedere organisatie aan de AVG
+                        voldoen. Of je nou de naam van een klant opschrijft, een
+                        telefoonnummer noteert, een factuur opstelt of een
+                        ledenlijst bijhoudt.
+                      </span>
+                      <br />
+                      <br />
+                      <span>
+                        Als organisatie ben je verplicht om zorgvuldig om te
+                        gaan met persoonsgegevens en om transparant te zijn over
+                        de gegevens die je verwerkt.
+                      </span>
+                      <br />
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </faq12-wrapper>
+        <contact-form61-wrapper class="contact-form61-wrapper">
+          <!--ContactForm61 component-->
+          <div class="contact-form61-contact1 thq-section-padding">
+            <div
+              class="thq-flex-row thq-section-max-width contact-form61-max-width"
+            >
+              <div class="contact-form61-section-title thq-flex-column">
+                <span class="thq-body-small">
+                  <fragment class="contact-fragment34">
+                    <span class="contact-text42">
+                      Toch nog een vraag? Neem dan contact op.
+                    </span>
+                  </fragment>
+                </span>
+                <div class="contact-form61-content1">
+                  <h2 class="thq-heading-2">
+                    <fragment class="contact-fragment35">
+                      <span class="contact-text43">Contactformulier</span>
+                    </fragment>
+                  </h2>
+                </div>
+                <div class="contact-form61-content2">
+                  <div class="contact-form61-row1">
+                    <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                      <path
+                        d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"
+                      ></path>
+                    </svg>
+                    <span class="thq-body-small">
+                      <fragment class="contact-fragment30">
+                        <span class="contact-text35">info@ez2manage.nl</span>
+                      </fragment>
+                    </span>
+                  </div>
+                  <div class="contact-form61-row2">
+                    <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                      <path
+                        d="M282 460q96 186 282 282l94-94q20-20 44-10 72 24 152 24 18 0 30 12t12 30v150q0 18-12 30t-30 12q-300 0-513-213t-213-513q0-18 12-30t30-12h150q18 0 30 12t12 30q0 80 24 152 8 26-10 44z"
+                      ></path>
+                    </svg>
+                    <span class="thq-body-small">
+                      <fragment class="contact-fragment31">
+                        <span class="contact-text36">+31 6 37 29 76 59</span>
+                      </fragment>
+                    </span>
+                  </div>
+                  <div class="contact-form61-row3">
+                    <svg viewBox="0 0 1024 1024" class="thq-icon-small">
+                      <path
+                        d="M512 0c-176.732 0-320 143.268-320 320 0 320 320 704 320 704s320-384 320-704c0-176.732-143.27-320-320-320zM512 512c-106.040 0-192-85.96-192-192s85.96-192 192-192 192 85.96 192 192-85.96 192-192 192z"
+                      ></path>
+                    </svg>
+                    <span class="thq-body-small">
+                      <fragment class="contact-fragment33">
+                        <span class="contact-text38">
+                          <span>Heerewegh 36, 2731 BM, Benthuizen</span>
+                          <br />
+                          <span>(Geen bezoekadres!)</span>
+                        </span>
+                      </fragment>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <form class="contact-form61-form thq-flex-column">
+                <div class="contact-form61-container1">
+                  <div class="contact-form61-input1">
+                    <label
+                      for="contact-form-6-first-name"
+                      class="thq-body-small"
+                    >
+                      Naam
+                    </label>
+                    <input
+                      type="text"
+                      id="contact-form-6-first-name"
+                      required="true"
+                      placeholder="Naam"
+                      class="thq-input"
+                    />
+                  </div>
+                  <div class="contact-form61-input2">
+                    <label
+                      for="contact-form-6-last-name"
+                      class="thq-body-small"
+                    >
+                      Naam organisatie
+                    </label>
+                    <input
+                      type="text"
+                      id="contact-form-6-last-name"
+                      required="true"
+                      placeholder="Naam organisatie"
+                      class="thq-input"
+                    />
+                  </div>
+                </div>
+                <div class="contact-form61-container2">
+                  <div class="contact-form61-input3">
+                    <label for="contact-form-6-email" class="thq-body-small">
+                      E-mail
+                    </label>
+                    <input
+                      type="email"
+                      id="contact-form-6-email"
+                      enctype="E-mail"
+                      required="true"
+                      placeholder="E-mail"
+                      class="thq-input"
+                    />
+                  </div>
+                  <div class="contact-form61-input4">
+                    <label for="contact-form-6-phone" class="thq-body-small">
+                      Telefoonnummer
+                    </label>
+                    <input
+                      type="tel"
+                      id="contact-form-6-phone"
+                      placeholder="Telefoonnummer"
+                      class="thq-input"
+                    />
+                  </div>
+                </div>
+                <div class="contact-form61-container3">
+                  <div class="contact-form61-input5">
+                    <label for="contact-form-6-options" class="thq-body-small">
+                      Kies onderwerp
+                    </label>
+                    <select
+                      id="contact-form-6-options"
+                      required="true"
+                      placeholder="Kies onderwerp"
+                      class="thq-select"
+                    >
+                      <option value="Option 1">Facturatie</option>
+                      <option value="Option 1">Technisch probleem</option>
+                      <option value="Option 2">Implementatieadvies</option>
+                      <option value="Option 2">Overig</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="contact-form61-container4">
+                  <div class="contact-form61-input6">
+                    <label for="contact-form-6-message" class="thq-body-small">
+                      Uw bericht
+                    </label>
+                    <textarea
+                      id="contact-form-6-message"
+                      rows="3"
+                      placeholder="Uw bericht"
+                      class="thq-input"
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="contact-form61-checkbox1">
+                  <input
+                    type="checkbox"
+                    id="contact-form-6-check"
+                    required="true"
+                    class="thq-checkbox"
+                  />
+                  <label for="contact-form-6-check" class="thq-body-small">
+                    U gaat akkoord met het privacybeleid en de algemene
+                    voorwaarden van EZ2Manage
+                  </label>
+                </div>
+                <button
+                  type="submit"
+                  class="contact-form61-button thq-button-filled"
+                >
+                  <span class="thq-body-small">
+                    <fragment class="contact-fragment32">
+                      <span class="contact-text37">Verstuur</span>
+                    </fragment>
+                  </span>
+                </button>
+              </form>
+            </div>
+          </div>
+        </contact-form61-wrapper>
+        <footer4-wrapper class="footer4-wrapper">
+          <!--Footer4 component-->
+          <footer class="footer4-footer7 thq-section-padding">
+            <div class="footer4-max-width thq-section-max-width">
+              <div class="footer4-content">
+                <div class="footer4-logo1">
+                  <img
+                    alt="Consultancy Business Logo"
+                    src="public/ez2managehorixontal%20color%20(1).svg"
+                    class="footer4-logo2"
+                  />
+                </div>
+              </div>
+              <div class="footer4-credits">
+                <div class="thq-divider-horizontal"></div>
+                <div class="footer4-row">
+                  <div class="footer4-container">
+                    <span class="thq-body-small">© 2025 EZ2Manage</span>
+                  </div>
+                  <div class="footer4-footer-links">
+                    <a
+                      href="privacyverklaring.html"
+                      class="footer4-text2 thq-body-small"
+                    >
+                      <fragment class="contact-fragment37">
+                        <span class="contact-text45">Privacyverklaring</span>
+                      </fragment>
+                    </a>
+                    <span class="thq-body-small">
+                      <fragment class="contact-fragment36">
+                        <span class="contact-text44">Algemene voorwaarden</span>
+                      </fragment>
+                    </span>
+                    <a
+                      href="disclaimer.html"
+                      class="footer4-text4 thq-body-small"
+                    >
+                      <fragment class="contact-fragment38">
+                        <span class="contact-text46">Disclaimer</span>
+                      </fragment>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </footer4-wrapper>
+      </div>
+    </div>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>
